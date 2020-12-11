@@ -80,10 +80,10 @@
                             <td><?php echo $store['Date']?></td>
                             <td><?php echo $store['Descirbe']?></td>
 
-                            <td><a href="index.php?page=delete&id=<?php echo $store['id'] ?>"
+                            <td><a href="index.php?page=delete&id=<?php echo $store['Id'] ?>"
                                 <a onclick="return confirm('Bạn có chắc chắn muốn xóa ')"
                                    class="btn btn-danger">Delete</a></td>
-                            <td><a href="index.php?page=edit&id=<?php echo $store['id'] ?>" class="btn btn-success">Edit</a></td>
+                            <td><a href="index.php?page=edit&id=<?php echo $store['Id'] ?>" class="btn btn-success">Edit</a></td>
                         </tr>
         <?php endforeach?>
         </tbody>

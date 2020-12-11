@@ -10,8 +10,7 @@ switch ($page){
         $storeController->edit();
         break;
     case 'delete':
-        $id = $_REQUEST['id'];
-        $storeController->delete($id);
+        $storeController->delete();
         break;
     case 'search':
         $storeController->search();

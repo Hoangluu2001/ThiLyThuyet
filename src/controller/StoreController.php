@@ -57,11 +57,11 @@ class StoreController
     }
 
 
-    public function delete($id){
-//        $id = $_REQUEST['id'];
-        if($_REQUEST['id']){
-            $this->storeController->deleteStore($id);
-        }
+    public function delete(){
+
+       $id= $_REQUEST['Id'];
+            $this->storeController->delete($id);
+
         header('location:index.php');
     }
 

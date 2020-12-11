@@ -58,10 +58,10 @@ class StoreModel
     }
 
 
-    public function deleteStore($id){
+    public function delete($id){
         $sql = 'DELETE FROM Hanghoa WHERE Id =:Id';
         $stmt = $this->database->prepare($sql);
-        $stmt->bindParam(':id',$id);
+        $stmt->bindParam(':Id',$id);
         $stmt->execute();
     }
 
