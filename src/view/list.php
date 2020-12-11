@@ -71,7 +71,7 @@
         </thead>
         <tbody>
         <?php foreach ($stores as $key=>$store):?>
-        <tr>-->
+        <tr>
                             <th scope="row"><?php echo $key+1?></th>
                             <td><?php echo $store['Name']?></td>
                             <td><?php echo $store['Type']?></td>
